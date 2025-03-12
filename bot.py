@@ -220,7 +220,7 @@ class LayerEdge:
                 return self.print_message(self.mask_account(address), proxy, Fore.RED, f"GET User Data Failed: {Fore.YELLOW+Style.BRIGHT}{str(e)}")
     
     async def user_confirm(self, address: str, proxy=None, retries=5):
-        url = "https://referralapi.layeredge.io/api/referral/register-wallet/tHc67a1g"
+        url = "https://referralapi.layeredge.io/api/referral/register-wallet/PQv1wlu7"
         data = json.dumps({"walletAddress":address})
         headers = {
             **self.headers,
